@@ -50,7 +50,7 @@ client.on('ready', async () => {
             `${groupId}`,
             `Mes salutations à vous chers collaborateurs à Ekpè. Nous osons espérer que tout se passe bien.Situation des Gates svp...`
         )
-    }, 60000*60)
+    }, 60000*30)
 });
 
 // client.on('message', async msg => {
