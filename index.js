@@ -48,10 +48,7 @@ client.on('ready', async () => {
     let timerId = setInterval(() => {
         client.sendMessage(
             `${groupId}`,
-            `Mes salutations à vous chers collaborateurs à Ekpè.
-            Nous osons espérer que tout se passe bien 
-            Situation des Gates svp...
-            `
+            `Mes salutations à vous chers collaborateurs à Ekpè. Nous osons espérer que tout se passe bien.Situation des Gates svp...`
         )
     }, 60000*60)
 });
